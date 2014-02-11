@@ -1,0 +1,16 @@
+{
+  "name": "nitro-analytics",
+  "version": "0.0.1",
+  "description": "The Nitro Analytics Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Czabania",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "~0.10.0",
+    "universal-analytics": "~0.3.2",
+    "hiredis": "~0.1.16"
+  }
+}
