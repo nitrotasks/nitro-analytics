@@ -1,6 +1,11 @@
 'use strict';
 var ua, url, redis, visitor, visitors, rtg, GA_ID, http;
 
+// Enable New Relic
+if (process.env.NEW_RELIC_LICENSE_KEY) {
+  require('newrelic');
+}
+
 // HTTP server
 http = require('http');
 
